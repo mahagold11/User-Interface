@@ -3,64 +3,126 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    margin: 40px 80px 40px 80px
 }
 
-/* Set every element's box-sizing to border-box */
-* {
+h1 , h2 , h3 , h4 {
+    font-family: 'Bangers', sans-serif;
+}
+
+button , p , address , nav , footer {
+   font-family: 'Titillium Web', sans-serif;
+}
+
+h2, h3, h4 {
+    font-size: 18px;
+}
+
+.container {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.container nav a , .logo-header {
+    display: inline-block;
+    width: 13%;
+}
+
+.container nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.hero-h1 , .hero-image {
+    display: inline-block;
+    width: 48%;
     box-sizing: border-box;
+    top: 0;
+    bottom: 0; 
+    padding-left: 40px;
 }
-
-html, body {
+.hero-h1 {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+}
+.h1-content {
+    margin-top: 100px;
+    box-sizing: border-box;
+    height: 75%;
+    text-align: center;
+    font-size: 30px
+}
+.hero button {
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0px 30% 10px 30%;
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.hero-image {
+    margin: 0;
+    float: right;
+    height: 100%;
 }
 
-/* Your code starts here! */
+.info {
+    margin-top: 40px;
+    border-top: 1.5px solid black;
+    
+}
+
+.features , .about { 
+    display: inline-block;
+    width: 48%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features {
+    padding-right: 5px
+}
+
+.info p {
+    font-size: 12px;
+}
+.middle-img img{
+    display: box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1.5px solid black;
+
+}
+.services , .product , .vision {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.more-info p {
+    font-size: 12px;
+}
+
+.footer {
+    line-break: 0px;
+    font-size: 12px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
